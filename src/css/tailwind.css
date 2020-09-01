@@ -8,10 +8,6 @@
 
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -32,3 +28,11 @@
     margin-left: 0;
     background-color: var(--secondary);
   }
+  /* this heck is from https://css-tricks.com/gradient-borders-in-css/ */
+  #insta-card {
+    background: linear-gradient(45deg, hsl(37, 97%, 70%) ,hsl(329, 70%, 58%));
+    padding-top: 4px;
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
