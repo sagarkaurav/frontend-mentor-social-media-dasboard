@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body class="bg-primary text-primary-text">
+  <header class="h-64 pt-8 bg-secondary">
+    <div class="flex flex-col flex-wrap justify-between px-6 py-4 md:px-24 md:flex-row imd:tems-center">
+      <div class="w-full py-4 border-b-2 border-secondary-text md:border-b-0 md:py-0 md:w-1/2">
+        <h1 class="text-2xl font-bold md:text-4xl">
+          Social Media Dashboard
+        </h1>
+        <h5 class="-mt-2 text-sm font-bold text-secondary-text">
+          Total Followers: 23,004
+        </h5>
+  
+      </div>
+      <div class="inline-flex justify-between w-full py-4 md:py-0 md:items-center md:justify-end md:w-1/2">
+          <p class="pr-4 text-sm font-bold text-primary-text">Dark Mode</p>
+          <div class="flex-grow h-6 p-1 bg-gray-600 rounded-full w-18 toggle" >
+          <div class="w-4 h-4 ml-auto bg-gray-100 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="px-6 py-8 -mt-16 lg:-mt-32 md:px-24">
+    <section>
+      <div class="grid grid-flow-row gap-8 grid-col-1 md:grid-cols-2 lg:grid-cols-4">
+        <div class="h-full px-8 py-6 border-t-4 border-blue-600 rounded-md cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md" >
+          <div class="flex items-center justify-center">
+            <div class="w-4 h-4">
+              <img class="object-fill w-full h-full" src="./images/icon-facebook.svg" alt="Facebook logo">
+            </div>
+            <p class="pl-1 text-sm text-secondary-text">@nathanf</p>
+          </div>
+          <div class="text-center">
+            <p class="text-6xl font-bold">1987</p>
+            <p class="-mt-4 text-sm leading-relaxed uppercase text-secondary-text">Followers</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">12 Today</p>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="h-full px-8 py-6 border-t-4 border-blue-500 rounded-md cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md" >
+          <div class="flex items-center justify-center">
+            <div class="w-4 h-4">
+              <img class="object-fill w-full h-full" src="./images/icon-twitter.svg" alt="Twitter logo">
+            </div>
+            <p class="pl-1 text-sm text-secondary-text">@nathanf</p>
+          </div>
+          <div class="text-center">
+            <p class="text-6xl font-bold">1044</p>
+            <p class="-mt-4 text-sm leading-relaxed uppercase text-secondary-text">Followers</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">99 Today</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="h-full px-8 py-6 border-t-4 border-pink-500 rounded-md cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md" >
+          <div class="flex items-center justify-center">
+            <div class="w-4 h-4">
+              <img class="object-fill w-full h-full" src="./images/icon-instagram.svg" alt="Instagram logo">
+            </div>
+            <p class="pl-1 text-sm text-secondary-text">@realnathanf</p>
+          </div>
+          <div class="text-center">
+            <p class="text-6xl font-bold">11k</p>
+            <p class="-mt-4 text-sm leading-relaxed uppercase text-secondary-text">Followers</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">1099 Today</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="h-full px-8 py-6 border-t-4 border-red-600 rounded-md cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md" >
+          <div class="flex items-center justify-center">
+            <div class="w-4 h-4">
+              <img class="object-fill w-full h-full" src="./images/icon-youtube.svg" alt="YouTube logo">
+            </div>
+            <p class="pl-1 text-sm text-secondary-text">Nathan F.</p>
+          </div>
+          <div class="text-center">
+            <p class="text-6xl font-bold">8239</p>
+            <p class="-mt-4 text-sm leading-relaxed uppercase text-secondary-text">Subscribers</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-down.svg" alt="down">
+              </div>
+              <p class="pl-1">144 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section>
+      <h5 class="my-8 text-2xl font-bold text-primary-text">Overview - Today</h5>
+      <div class="grid grid-flow-row gap-8 grid-col-1 md:grid-cols-4">
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-left text-secondary-text">Page Views</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-facebook.svg" alt="Facebook logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">87</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">3%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Likes</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-facebook.svg" alt="Facebook logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">52</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-down.svg" alt="down">
+              </div>
+              <p class="pl-1">2%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Likes</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-instagram.svg" alt="instgram logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">5462</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">2257%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Profile Views</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-instagram.svg" alt="Instagram logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">52k</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-green-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">1375%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Retweets</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-twitter.svg" alt="Twitter logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">117</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">303%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Likes</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-twitter.svg" alt="Twitter logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">507</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-up.svg" alt="up">
+              </div>
+              <p class="pl-1">553%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-seondary-text">Likes</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-youtube.svg" alt="YouTube logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">107</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-down.svg" alt="down">
+              </div>
+              <p class="pl-1">19%</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 rounded-sm cursor-pointer hover:bg-card-hover-state bg-card-bg md:max-w-md">
+          <div class="flex items-center justify-between">
+            <p class="pl-1 font-semibold text-secondary-text">Total Views</p>
+            <div class="w-8 h-8">
+              <img class="object-fill w-full h-full" src="./images/icon-youtube.svg" alt="YouTube logo">
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p class="text-4xl font-bold">1407</p>
+            <div class="flex items-center justify-center mt-4 text-xs text-red-500">
+              <div class="w-2 h-2">
+                <img class="object-fill w-full h-full" src="./images/icon-down.svg" alt="down">
+              </div>
+              <p class="pl-1">12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/sagarkaurav">Sagar Kaurav</a>.
+      <a href="https://github.com/sagarkaurav">Github</a><br><br><br><br>
+    </div>
+  </footer>
+  <script>
+    window.onload = function() {
+      let toggle  = document.getElementsByClassName('toggle')[0];
+      toggle.addEventListener('click', function(e) {
+          if(toggle.classList.contains('on')) {
+            toggle.classList.remove('on');
+            // ligth mode
+            document.documentElement.style.setProperty('--primary', 'hsl(0, 0%, 100%)');
+            document.documentElement.style.setProperty('--secondary', 'hsl(225, 100%, 98%)');
+            document.documentElement.style.setProperty('--card-bg', 'hsl(227, 47%, 96%)');
+            document.documentElement.style.setProperty('--primary-text', 'hsl(230, 17%, 14%)');
+            document.documentElement.style.setProperty('--secondary-text', 'hsl(228, 12%, 44%)');
+            document.documentElement.style.setProperty('--card-hover-state', 'hsl(227, 14%, 89%)');
+          }
+          else {
+            toggle.classList.add('on');
+            //dark mode
+            document.documentElement.style.setProperty('--primary', ' hsl(230, 17%, 14%)');
+            document.documentElement.style.setProperty('--secondary', 'hsl(232, 19%, 15%)');
+            document.documentElement.style.setProperty('--card-bg', 'hsl(228, 28%, 20%)');
+            document.documentElement.style.setProperty('--secondary-text', 'hsl(228, 34%, 66%)');
+            document.documentElement.style.setProperty('--primary-text', 'hsl(0, 0%, 100%)');
+            document.documentElement.style.setProperty('--card-hover-state', 'hsl(228, 28%, 27%)');
+
+          }
+      });
+    }
+  </script>
+</body>
+
+</html>
