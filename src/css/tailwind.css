@@ -25,7 +25,7 @@
 
   }
   .on > div {
-    margin-left: 0;
+    float: right;
     background-color: var(--secondary);
   }
   /* this heck is from https://css-tricks.com/gradient-borders-in-css/ */

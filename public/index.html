@@ -28,8 +28,10 @@
       </div>
       <div class="inline-flex justify-between w-full py-4 md:py-0 md:items-center md:justify-end md:w-1/2">
           <p class="pr-4 text-sm font-bold text-primary-text">Dark Mode</p>
-          <div class="flex-grow h-6 p-1 bg-gray-600 rounded-full w-18 toggle" >
-          <div class="w-4 h-4 ml-auto bg-gray-100 rounded-full"></div>
+          <input type="checkbox" class="opacity-0" name="darkmode-toggle-checkbox" id="darkmode-toggle-checkbox">
+          <label for="darkmode-toggle-checkbox" id="darkmode-toggle-checkbox-label" class="block flex-grow h-6 p-1 bg-gray-600 rounded-full w-18 toggle">
+            <div class="w-4 h-4 mr-auto bg-gray-100 rounded-full"></div>
+          </label>
         </div>
       </div>
     </div>
@@ -268,10 +270,11 @@
   </footer>
   <script>
     window.onload = function() {
-      let toggle  = document.getElementsByClassName('toggle')[0];
+      let toggle  = document.getElementById('darkmode-toggle-checkbox');
+      let toggleLabel = document.getElementById('darkmode-toggle-checkbox-label');
       toggle.addEventListener('click', function(e) {
-          if(toggle.classList.contains('on')) {
-            toggle.classList.remove('on');
+          if(toggle.checked == 0) {
+            toggleLabel.classList.remove('on');
             // ligth mode
             document.documentElement.style.setProperty('--primary', 'hsl(0, 0%, 100%)');
             document.documentElement.style.setProperty('--secondary', 'hsl(225, 100%, 98%)');
@@ -281,7 +284,7 @@
             document.documentElement.style.setProperty('--card-hover-state', 'hsl(227, 14%, 89%)');
           }
           else {
-            toggle.classList.add('on');
+            toggleLabel.classList.add('on');
             //dark mode
             document.documentElement.style.setProperty('--primary', ' hsl(230, 17%, 14%)');
             document.documentElement.style.setProperty('--secondary', 'hsl(232, 19%, 15%)');
